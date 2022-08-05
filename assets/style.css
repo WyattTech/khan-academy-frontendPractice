@@ -1,0 +1,139 @@
+/* Global Styling */
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+/* Layout Styling*/
+.left,
+.middle,
+.right,
+.top,
+.top-area,
+header,
+main{
+    clear:both; 
+}
+header{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height:75px;
+    padding-top: 1%;
+    padding-left: 8%;
+}
+.top{
+    padding: 1.25%;
+    height: 15%;
+    width: 100%;
+    height: auto;
+}
+
+.boxes{
+    width: 33.33%;
+    float: left;
+}
+
+form{
+
+  font-family: 'Arial';
+}
+
+ input[type=search] {
+    background-color: rgb(244, 236, 236);
+    margin: 4%;
+    border-radius: 3px;
+    padding: 3px;
+ }
+select {
+    outline: none;
+    text-decoration: none;
+    border: none;
+    background-color: #fff;;
+ }
+
+ul{
+    
+    font-family: 'Arial';
+    font-weight: bold;
+    padding-top: 5%;
+    
+}
+
+ul li{
+    display: inline;
+    
+  }
+  
+  a {
+   
+    color: blue;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px; 
+  }
+
+  a:hover{
+    color: lightseagreen;
+  }
+
+/* Main */
+.hero-area{ 
+    width: 100%;       
+}
+
+
+.box{
+    padding: 4%;
+     height: 300px;
+      width: 50%;
+      float: left;
+  }
+
+/* Button Styling */
+input[type=button] {
+    background-color: blue;
+    padding: 2% 4%;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-family: 'Arial';
+    
+}
+
+/* Styling */
+h1{
+  padding-top: 1em;
+  font-size: 3.25em;
+  font-weight: bold;
+}
+
+p{
+    line-height: 185%;
+    font-family: 'Arial';
+    font-size: 1.25em;
+    padding-bottom: 7%;
+    justify-content: start;
+}
+/* Image Styling*/
+.boxes > img{
+    margin: 1.25% 8%;
+}
+.box > img{
+    width: 100%;
+    float: right;
+    padding: 0;
+}
+
+hr{
+    opacity: 0.20;
+}
+
+input[type=button]:hover{
+    background-color: lightseagreen;
+}
+
